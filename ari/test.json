@@ -1,0 +1,104 @@
+[
+  {
+    "time_stamp": "",
+    "version": "",
+    "message_content_code": "",
+    "rate_plans": {
+      "hotel_code":  "",
+      "destination_systems_code": [
+        {
+          "text": ""
+        }
+      ],
+      "unique_id" : {
+        "type": "",
+        "code": ""
+      },
+      "rate_plan": [
+        {
+          "rate_plan_code": "",
+          "rate_plan_notif_type": "",
+          "start": "",
+          "end": "",
+          "rates" : [
+            {
+              "mon": "false",
+              "tue": "false",
+              "weds": "false",
+              "thur": "true",
+              "fri": "false",
+              "sat":"false",
+              "sun": "false",
+              "inv_type_code": "",
+              "currency_code": "",
+              "rate_time_unit": "",
+              "min_los": "",
+              "max_los": "",
+              "base_guest_amts": [
+                {
+                  "max_age": "",
+                  "min_age": "",
+                  "amount_before_tax": "",
+                  "amount_after_tax": "",
+                  "number_of_guests": "",
+                  "age_qualifying_code": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "time_stamp": "",
+    "version": "",
+    "message_content_code": "",
+    "rate_plans": {
+      "hotel_code":  "",
+      "destination_systems_code": [
+        {
+          "text": ""
+        }
+      ],
+      "unique_id" : {
+        "type": "",
+        "code": ""
+      },
+      "rate_plan": [
+        {
+          "rate_plan_code": "",
+          "rate_plan_notif_type": "",
+          "start": "",
+          "end": "",
+          "rates" : [
+            {
+              "mon": "false",
+              "tue": "false",
+              "weds": "false",
+              "thur": "true",
+              "fri": "false",
+              "sat":"false",
+              "sun": "false",
+              "inv_type_code": "",
+              "currency_code": "",
+              "rate_time_unit": "",
+              "min_los": "",
+              "max_los": "",
+              "base_guest_amts": [
+                {
+                  "max_age": "",
+                  "min_age": "",
+                  "amount_before_tax": "",
+                  "amount_after_tax": "",
+                  "number_of_guests": "",
+                  "age_qualifying_code": ""
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

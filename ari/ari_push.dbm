@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+ Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="1.1.0-beta1" use-changelog="false" last-position="800,0" last-zoom="0.85" max-obj-count="12"
+	 default-schema="public" default-owner="postgres"
+	 layers="Default layer"
+	 active-layers="0"
+	 layer-name-colors="#000000"
+	 layer-rect-colors="#b4b4b4"
+	 show-layer-names="false" show-layer-rects="false">
+<database name="new_database" is-template="false" allow-conns="true">
+</database>
+
+<schema name="public" layers="0" fill-color="#e1e1e1" name-color="#000000" sql-disabled="true">
+</schema>
+
+<schema name="rate" layers="0" rect-visible="true" fill-color="#e1e1e1" name-color="#31363b">
+	<role name="postgres"/>
+</schema>
+
+<table name="base_by_guest_amt" layers="0" collapse-mode="2" max-obj-count="12" z-value="0">
+	<schema name="rate"/>
+	<role name="postgres"/>
+	<position x="3360" y="420"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="base_by_guest_amts_id">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="max_age">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="min_age">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="amount_before_tax">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="amount_after_tax">
+		<type name="double precision" length="0"/>
+	</column>
+	<column name="number_of_quests">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="age_qualifying_code">
+		<type name="varchar" length="32"/>
+	</column>
+	<column name="inserted_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="updated_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="base_by_guest_amt_pkey" type="pk-constr" table="rate.base_by_guest_amt">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="base_by_guest_amts" layers="0" collapse-mode="2" max-obj-count="4" z-value="0">
+	<schema name="rate"/>
+	<role name="postgres"/>
+	<position x="2860" y="600"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="rate_id">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="inserted_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="updated_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="base_by_guest_amts_pkey" type="pk-constr" table="rate.base_by_guest_amts">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="rate" layers="0" collapse-mode="2" max-obj-count="19" z-value="0">
+	<schema name="rate"/>
+	<role name="postgres"/>
+	<position x="2300" y="400"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="rates_id">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="inventory_type_code">
+		<type name="varchar" length="32"/>
+	</column>
+	<column name="currency_code">
+		<type name="varchar" length="3"/>
+	</column>
+	<column name="rate_time_unit">
+		<type name="varchar" length="32"/>
+	</column>
+	<column name="min_los">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="max_los">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="sun">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="mon">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="tue">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="weds">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="thur">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="fri">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="sat">
+		<type name="boolean" length="0"/>
+	</column>
+	<column name="insterted_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="updated_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="rate_pkey" type="pk-constr" table="rate.rate">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="rates" layers="0" collapse-mode="2" max-obj-count="4" z-value="0">
+	<schema name="rate"/>
+	<role name="postgres"/>
+	<position x="1640" y="720"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="rate_plan_id">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="insterted_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="updated_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="rates_pkey" type="pk-constr" table="rate.rates">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="unique_id" layers="0" collapse-mode="2" max-obj-count="7" z-value="0">
+	<schema name="rate"/>
+	<role name="postgres"/>
+	<position x="1600" y="300"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="rate_plan_id">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="type">
+		<type name="varchar" length="256"/>
+	</column>
+	<column name="code">
+		<type name="varchar" length="16"/>
+	</column>
+	<column name="inserted_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="updated_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="unique_id_pkey" type="pk-constr" table="rate.unique_id">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="destination_systems_code" layers="0" collapse-mode="2" max-obj-count="4" z-value="0">
+	<schema name="rate"/>
+	<role name="postgres"/>
+	<position x="1580" y="1040"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="rate_plan_id">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="insterted_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="updated_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="destination_systems_code_pkey" type="pk-constr" table="rate.destination_systems_code">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="destination_system_code" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
+	<schema name="rate"/>
+	<role name="postgres"/>
+	<position x="2260" y="1180"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="destination_systems_code_id">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="text">
+		<type name="varchar" length="32"/>
+	</column>
+	<column name="inserted_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="updated_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="destination_system_code_pkey" type="pk-constr" table="rate.destination_system_code">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="rate_plan" layers="0" collapse-mode="2" max-obj-count="9" z-value="0">
+	<schema name="rate"/>
+	<role name="postgres"/>
+	<position x="1020" y="580"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="rate_plans_id">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="rate_plan_code">
+		<type name="varchar" length="32"/>
+	</column>
+	<column name="rate_plan_notif_type">
+		<type name="varchar" length="0"/>
+	</column>
+	<column name="start">
+		<type name="date" length="0"/>
+	</column>
+	<column name="end">
+		<type name="date" length="0"/>
+	</column>
+	<column name="inserted_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="updated_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="rate_plan_pkey" type="pk-constr" table="rate.rate_plan">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="rate_plans" layers="0" collapse-mode="2" max-obj-count="6" z-value="0">
+	<schema name="rate"/>
+	<role name="postgres"/>
+	<position x="500" y="440"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="ota_rate_plan_notif_rq_id">
+		<type name="bigint" length="0"/>
+	</column>
+	<column name="hotel_code">
+		<type name="varchar" length="16"/>
+	</column>
+	<column name="insterted_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="updated_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<constraint name="rate_plans_pkey" type="pk-constr" table="rate.rate_plans">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="ota_rate_plan_notif_rq" layers="0" collapse-mode="2" max-obj-count="7" z-value="0">
+	<schema name="rate"/>
+	<role name="postgres"/>
+	<position x="0" y="360"/>
+	<column name="id" not-null="true">
+		<type name="bigserial" length="0"/>
+	</column>
+	<column name="time_stamp">
+		<type name="timestamptz" length="0"/>
+	</column>
+	<column name="version">
+		<type name="varchar" length="16"/>
+	</column>
+	<column name="message_content_code">
+		<type name="varchar" length="8"/>
+	</column>
+	<column name="inserted_at">
+		<type name="timestamp" length="0"/>
+	</column>
+	<column name="updated_at">
+		<type name="timestamptz" length="0"/>
+	</column>
+	<constraint name="messages_pkey" type="pk-constr" table="rate.ota_rate_plan_notif_rq">
+		<columns names="id" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<constraint name="base_by_guest_amt_base_by_guest_amts_id_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="rate.base_by_guest_amts" table="rate.base_by_guest_amt">
+	<columns names="base_by_guest_amts_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="base_by_guest_amts_rate_id_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="rate.rate" table="rate.base_by_guest_amts">
+	<columns names="rate_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="rate_rates_id_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="rate.rates" table="rate.rate">
+	<columns names="rates_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="rates_rate_plan_id" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="rate.rate_plan" table="rate.rates">
+	<columns names="rate_plan_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="unique_id_rate_plan_id_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="rate.rate_plan" table="rate.unique_id">
+	<columns names="rate_plan_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="destination_systems_code_rate_plan_id_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="rate.rate_plan" table="rate.destination_systems_code">
+	<columns names="rate_plan_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="destination_systems_code_destination_systems_code_id_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="rate.destination_systems_code" table="rate.destination_system_code">
+	<columns names="destination_systems_code_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="rate_plan_rate_plans_id_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="rate.rate_plans" table="rate.rate_plan">
+	<columns names="rate_plans_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="rate_plans_ota_rate_plan_notif_rq_id_fkey" type="fk-constr" comparison-type="MATCH SIMPLE"
+	 upd-action="NO ACTION" del-action="NO ACTION" ref-table="rate.ota_rate_plan_notif_rq" table="rate.rate_plans">
+	<columns names="ota_rate_plan_notif_rq_id" ref-type="src-columns"/>
+	<columns names="id" ref-type="dst-columns"/>
+</constraint>
+
+<relationship name="rel_base_by_guest_amt_base_by_guest_amts" type="relfk" layers="0"
+	 src-table="rate.base_by_guest_amt"
+	 dst-table="rate.base_by_guest_amts" reference-fk="base_by_guest_amt_base_by_guest_amts_id_fkey"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="-156.045" y="-69.491"/>
+	</label>
+</relationship>
+
+<relationship name="rel_base_by_guest_amts_rate" type="relfk" layers="0"
+	 src-table="rate.base_by_guest_amts"
+	 dst-table="rate.rate" reference-fk="base_by_guest_amts_rate_id_fkey"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="97.8893" y="-79.491"/>
+	</label>
+</relationship>
+
+<relationship name="rel_rate_rates" type="relfk" layers="0"
+	 src-table="rate.rate"
+	 dst-table="rate.rates" reference-fk="rate_rates_id_fkey"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="-124.108" y="30.509"/>
+	</label>
+</relationship>
+
+<relationship name="rel_destination_system_code_destination_systems_code" type="relfk" layers="0"
+	 src-table="rate.destination_system_code"
+	 dst-table="rate.destination_systems_code" reference-fk="destination_systems_code_destination_systems_code_id_fkey"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="180.056" y="-79.491"/>
+	</label>
+</relationship>
+
+<relationship name="rel_rates_rate_plan" type="relfk" layers="0"
+	 src-table="rate.rates"
+	 dst-table="rate.rate_plan" reference-fk="rates_rate_plan_id"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="94.076" y="-59.491"/>
+	</label>
+</relationship>
+
+<relationship name="rel_destination_systems_code_rate_plan" type="relfk" layers="0"
+	 src-table="rate.destination_systems_code"
+	 dst-table="rate.rate_plan" reference-fk="destination_systems_code_rate_plan_id_fkey"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="166.072" y="100.509"/>
+	</label>
+</relationship>
+
+<relationship name="rel_unique_id_rate_plan" type="relfk" layers="0"
+	 src-table="rate.unique_id"
+	 dst-table="rate.rate_plan" reference-fk="unique_id_rate_plan_id_fkey"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="-109.428" y="-39.491"/>
+	</label>
+</relationship>
+
+<relationship name="rel_rate_plan_rate_plans" type="relfk" layers="0"
+	 src-table="rate.rate_plan"
+	 dst-table="rate.rate_plans" reference-fk="rate_plan_rate_plans_id_fkey"
+	 src-required="false" dst-required="false">
+	<label ref-type="name-label">
+		<position x="93.9469" y="-89.491"/>
+	</label>
+</relationship>
+
+<relationship name="rel_rate_plans_ota_rate_plan_notif_rq" type="relfk" layers="0"
+	 src-table="rate.rate_plans"
+	 dst-table="rate.ota_rate_plan_notif_rq" reference-fk="rate_plans_ota_rate_plan_notif_rq_id_fkey"
+	 src-required="false" dst-required="false"/>
+
+</dbmodel>

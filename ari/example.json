@@ -1,0 +1,4429 @@
+{
+  "hotel_code": "1002225",
+  "destination_systems_code": [
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ],
+    [
+      {
+        "text": "6105"
+      }
+    ]
+  ],
+  "unique_ids": [
+    [
+      {
+        "type": "16",
+        "code": "17"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "19"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "33"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "8"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "30"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "31"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "28"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "25"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "1"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "4"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "15"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "22"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "27"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "9"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "2"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "11"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "20"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "14"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "13"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "32"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "18"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "21"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "16"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "29"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "34"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "6"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "7"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "12"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "3"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "26"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "24"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "5"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "10"
+      }
+    ],
+    [
+      {
+        "type": "16",
+        "code": "23"
+      }
+    ]
+  ],
+  "rate_plan": [
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-31",
+      "end": "2025-08-03",
+      "rates": {
+        "mon": true,
+        "tue": true,
+        "weds": true,
+        "thur": true,
+        "fri": false,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 287.5,
+            "amount_after_tax": 327.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 385.71,
+            "amount_after_tax": 437.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 439.29,
+            "amount_after_tax": 497.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 492.86,
+            "amount_after_tax": 557.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 546.43,
+            "amount_after_tax": 617.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.04,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-05",
+      "end": "2025-08-05",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": true,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 350,
+            "amount_after_tax": 397.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 403.57,
+            "amount_after_tax": 457.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 457.14,
+            "amount_after_tax": 517.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 510.71,
+            "amount_after_tax": 577.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 564.29,
+            "amount_after_tax": 637.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.35,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-28",
+      "end": "2025-08-31",
+      "rates": {
+        "mon": true,
+        "tue": true,
+        "weds": true,
+        "thur": true,
+        "fri": false,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 287.5,
+            "amount_after_tax": 327.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 385.71,
+            "amount_after_tax": 437.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 439.29,
+            "amount_after_tax": 497.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 492.86,
+            "amount_after_tax": 557.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 546.43,
+            "amount_after_tax": 617.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.04,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-16",
+      "end": "2025-07-16",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": false,
+        "sun": true,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 278.57,
+            "amount_after_tax": 317.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 376.79,
+            "amount_after_tax": 427.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 430.36,
+            "amount_after_tax": 487.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 483.93,
+            "amount_after_tax": 547.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 537.5,
+            "amount_after_tax": 607.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.72,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 17.86,
+            "amount_after_tax": 20,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 40.18,
+            "amount_after_tax": 45,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 62.5,
+            "amount_after_tax": 70,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 84.82,
+            "amount_after_tax": 95,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-25",
+      "end": "2025-08-25",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": true,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 394.64,
+            "amount_after_tax": 447.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 448.21,
+            "amount_after_tax": 507.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 501.79,
+            "amount_after_tax": 567.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 555.36,
+            "amount_after_tax": 627.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-26",
+      "end": "2025-08-26",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": true,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 350,
+            "amount_after_tax": 397.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 403.57,
+            "amount_after_tax": 457.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 457.14,
+            "amount_after_tax": 517.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 510.71,
+            "amount_after_tax": 577.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 564.29,
+            "amount_after_tax": 637.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.35,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-20",
+      "end": "2025-08-20",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": false,
+        "sun": true,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 278.57,
+            "amount_after_tax": 317.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 376.79,
+            "amount_after_tax": 427.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 430.36,
+            "amount_after_tax": 487.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 483.93,
+            "amount_after_tax": 547.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 537.5,
+            "amount_after_tax": 607.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.72,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 17.86,
+            "amount_after_tax": 20,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 40.18,
+            "amount_after_tax": 45,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 62.5,
+            "amount_after_tax": 70,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 84.82,
+            "amount_after_tax": 95,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-14",
+      "end": "2025-08-17",
+      "rates": {
+        "mon": true,
+        "tue": true,
+        "weds": true,
+        "thur": true,
+        "fri": false,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 287.5,
+            "amount_after_tax": 327.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 385.71,
+            "amount_after_tax": 437.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 439.29,
+            "amount_after_tax": 497.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 492.86,
+            "amount_after_tax": 557.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 546.43,
+            "amount_after_tax": 617.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.04,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-06",
+      "end": "2025-07-06",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": true,
+        "fri": false,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 385.71,
+            "amount_after_tax": 437.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 439.29,
+            "amount_after_tax": 497.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 492.86,
+            "amount_after_tax": 557.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 546.43,
+            "amount_after_tax": 617.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 287.5,
+            "amount_after_tax": 327.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.04,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-09",
+      "end": "2025-07-09",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": false,
+        "sun": true,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 278.57,
+            "amount_after_tax": 317.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 376.79,
+            "amount_after_tax": 427.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 430.36,
+            "amount_after_tax": 487.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 483.93,
+            "amount_after_tax": 547.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 537.5,
+            "amount_after_tax": 607.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.72,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 17.86,
+            "amount_after_tax": 20,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 40.18,
+            "amount_after_tax": 45,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 62.5,
+            "amount_after_tax": 70,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 84.82,
+            "amount_after_tax": 95,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-29",
+      "end": "2025-07-29",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": true,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 350,
+            "amount_after_tax": 397.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 403.57,
+            "amount_after_tax": 457.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 457.14,
+            "amount_after_tax": 517.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 510.71,
+            "amount_after_tax": 577.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 564.29,
+            "amount_after_tax": 637.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.35,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-11",
+      "end": "2025-08-11",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": true,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 394.64,
+            "amount_after_tax": 447.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 448.21,
+            "amount_after_tax": 507.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 501.79,
+            "amount_after_tax": 567.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 555.36,
+            "amount_after_tax": 627.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-19",
+      "end": "2025-08-19",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": true,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 350,
+            "amount_after_tax": 397.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 403.57,
+            "amount_after_tax": 457.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 457.14,
+            "amount_after_tax": 517.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 510.71,
+            "amount_after_tax": 577.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 564.29,
+            "amount_after_tax": 637.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.35,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-17",
+      "end": "2025-07-20",
+      "rates": {
+        "mon": true,
+        "tue": true,
+        "weds": true,
+        "thur": true,
+        "fri": false,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 287.5,
+            "amount_after_tax": 327.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 385.71,
+            "amount_after_tax": 437.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 439.29,
+            "amount_after_tax": 497.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 492.86,
+            "amount_after_tax": 557.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 546.43,
+            "amount_after_tax": 617.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.04,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-07",
+      "end": "2025-07-07",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": true,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 394.64,
+            "amount_after_tax": 447.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 448.21,
+            "amount_after_tax": 507.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 501.79,
+            "amount_after_tax": 567.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 555.36,
+            "amount_after_tax": 627.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-22",
+      "end": "2025-07-22",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": true,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 350,
+            "amount_after_tax": 397.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 403.57,
+            "amount_after_tax": 457.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 457.14,
+            "amount_after_tax": 517.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 510.71,
+            "amount_after_tax": 577.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 564.29,
+            "amount_after_tax": 637.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.35,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-06",
+      "end": "2025-08-06",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": false,
+        "sun": true,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 278.57,
+            "amount_after_tax": 317.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 376.79,
+            "amount_after_tax": 427.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 430.36,
+            "amount_after_tax": 487.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 483.93,
+            "amount_after_tax": 547.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 537.5,
+            "amount_after_tax": 607.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.72,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 17.86,
+            "amount_after_tax": 20,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 40.18,
+            "amount_after_tax": 45,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 62.5,
+            "amount_after_tax": 70,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 84.82,
+            "amount_after_tax": 95,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-28",
+      "end": "2025-07-28",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": true,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 394.64,
+            "amount_after_tax": 447.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 448.21,
+            "amount_after_tax": 507.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 501.79,
+            "amount_after_tax": 567.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 555.36,
+            "amount_after_tax": 627.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-24",
+      "end": "2025-07-27",
+      "rates": {
+        "mon": true,
+        "tue": true,
+        "weds": true,
+        "thur": true,
+        "fri": false,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 287.5,
+            "amount_after_tax": 327.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 385.71,
+            "amount_after_tax": 437.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 439.29,
+            "amount_after_tax": 497.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 492.86,
+            "amount_after_tax": 557.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 546.43,
+            "amount_after_tax": 617.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.04,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-27",
+      "end": "2025-08-27",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": false,
+        "sun": true,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 278.57,
+            "amount_after_tax": 317.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 376.79,
+            "amount_after_tax": 427.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 430.36,
+            "amount_after_tax": 487.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 483.93,
+            "amount_after_tax": 547.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 537.5,
+            "amount_after_tax": 607.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.72,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 17.86,
+            "amount_after_tax": 20,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 40.18,
+            "amount_after_tax": 45,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 62.5,
+            "amount_after_tax": 70,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 84.82,
+            "amount_after_tax": 95,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-04",
+      "end": "2025-08-04",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": true,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 394.64,
+            "amount_after_tax": 447.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 448.21,
+            "amount_after_tax": 507.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 501.79,
+            "amount_after_tax": 567.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 555.36,
+            "amount_after_tax": 627.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-07",
+      "end": "2025-08-10",
+      "rates": {
+        "mon": true,
+        "tue": true,
+        "weds": true,
+        "thur": true,
+        "fri": false,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 287.5,
+            "amount_after_tax": 327.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 385.71,
+            "amount_after_tax": 437.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 439.29,
+            "amount_after_tax": 497.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 492.86,
+            "amount_after_tax": 557.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 546.43,
+            "amount_after_tax": 617.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.04,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-30",
+      "end": "2025-07-30",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": false,
+        "sun": true,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 278.57,
+            "amount_after_tax": 317.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 376.79,
+            "amount_after_tax": 427.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 430.36,
+            "amount_after_tax": 487.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 483.93,
+            "amount_after_tax": 547.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 537.5,
+            "amount_after_tax": 607.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.72,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 17.86,
+            "amount_after_tax": 20,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 40.18,
+            "amount_after_tax": 45,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 62.5,
+            "amount_after_tax": 70,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 84.82,
+            "amount_after_tax": 95,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-21",
+      "end": "2025-08-24",
+      "rates": {
+        "mon": true,
+        "tue": true,
+        "weds": true,
+        "thur": true,
+        "fri": false,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 287.5,
+            "amount_after_tax": 327.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 385.71,
+            "amount_after_tax": 437.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 439.29,
+            "amount_after_tax": 497.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 492.86,
+            "amount_after_tax": 557.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 546.43,
+            "amount_after_tax": 617.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.04,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-09-01",
+      "end": "2025-09-18",
+      "rates": {
+        "mon": true,
+        "tue": true,
+        "weds": true,
+        "thur": true,
+        "fri": true,
+        "sat": true,
+        "sun": true,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 89.29,
+            "amount_after_tax": 105.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 89.29,
+            "amount_after_tax": 105.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 89.29,
+            "amount_after_tax": 105.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 89.29,
+            "amount_after_tax": 105.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 89.29,
+            "amount_after_tax": 105.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 89.29,
+            "amount_after_tax": 105.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 89.29,
+            "amount_after_tax": 105.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 89.29,
+            "amount_after_tax": 105.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 89.29,
+            "amount_after_tax": 105.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-14",
+      "end": "2025-07-14",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": true,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 394.64,
+            "amount_after_tax": 447.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 448.21,
+            "amount_after_tax": 507.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 501.79,
+            "amount_after_tax": 567.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 555.36,
+            "amount_after_tax": 627.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-15",
+      "end": "2025-07-15",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": true,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 350,
+            "amount_after_tax": 397.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 403.57,
+            "amount_after_tax": 457.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 457.14,
+            "amount_after_tax": 517.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 510.71,
+            "amount_after_tax": 577.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 564.29,
+            "amount_after_tax": 637.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.35,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-23",
+      "end": "2025-07-23",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": false,
+        "sun": true,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 278.57,
+            "amount_after_tax": 317.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 376.79,
+            "amount_after_tax": 427.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 430.36,
+            "amount_after_tax": 487.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 483.93,
+            "amount_after_tax": 547.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 537.5,
+            "amount_after_tax": 607.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.72,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 17.86,
+            "amount_after_tax": 20,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 40.18,
+            "amount_after_tax": 45,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 62.5,
+            "amount_after_tax": 70,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 84.82,
+            "amount_after_tax": 95,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-08",
+      "end": "2025-07-08",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": true,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 350,
+            "amount_after_tax": 397.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 403.57,
+            "amount_after_tax": 457.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 457.14,
+            "amount_after_tax": 517.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 510.71,
+            "amount_after_tax": 577.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 564.29,
+            "amount_after_tax": 637.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.35,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-18",
+      "end": "2025-08-18",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": true,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 394.64,
+            "amount_after_tax": 447.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 448.21,
+            "amount_after_tax": 507.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 501.79,
+            "amount_after_tax": 567.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 555.36,
+            "amount_after_tax": 627.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-13",
+      "end": "2025-08-13",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": false,
+        "sun": true,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 278.57,
+            "amount_after_tax": 317.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 376.79,
+            "amount_after_tax": 427.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 430.36,
+            "amount_after_tax": 487.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 483.93,
+            "amount_after_tax": 547.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 537.5,
+            "amount_after_tax": 607.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.72,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 17.86,
+            "amount_after_tax": 20,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 40.18,
+            "amount_after_tax": 45,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 62.5,
+            "amount_after_tax": 70,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 84.82,
+            "amount_after_tax": 95,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-10",
+      "end": "2025-07-13",
+      "rates": {
+        "mon": true,
+        "tue": true,
+        "weds": true,
+        "thur": true,
+        "fri": false,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 287.5,
+            "amount_after_tax": 327.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 385.71,
+            "amount_after_tax": 437.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 439.29,
+            "amount_after_tax": 497.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 492.86,
+            "amount_after_tax": 557.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 546.43,
+            "amount_after_tax": 617.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.04,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-07-21",
+      "end": "2025-07-21",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": true,
+        "sat": false,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 296.43,
+            "amount_after_tax": 337.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 314.29,
+            "amount_after_tax": 357.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 394.64,
+            "amount_after_tax": 447.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 448.21,
+            "amount_after_tax": 507.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 501.79,
+            "amount_after_tax": 567.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 555.36,
+            "amount_after_tax": 627.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.36,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    },
+    {
+      "rate_plan_code": "RAC",
+      "rate_plan_notif_type": "Delta",
+      "start": "2025-08-12",
+      "end": "2025-08-12",
+      "rates": {
+        "mon": false,
+        "tue": false,
+        "weds": false,
+        "thur": false,
+        "fri": false,
+        "sat": true,
+        "sun": false,
+        "base_by_guest_amts": [
+          {
+            "amount_before_tax": 305.36,
+            "amount_after_tax": 347.5,
+            "number_of_guests": 1,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 323.21,
+            "amount_after_tax": 367.5,
+            "number_of_guests": 2,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 332.14,
+            "amount_after_tax": 377.5,
+            "number_of_guests": 3,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 341.07,
+            "amount_after_tax": 387.5,
+            "number_of_guests": 4,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 350,
+            "amount_after_tax": 397.5,
+            "number_of_guests": 5,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 403.57,
+            "amount_after_tax": 457.5,
+            "number_of_guests": 6,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 457.14,
+            "amount_after_tax": 517.5,
+            "number_of_guests": 7,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 510.71,
+            "amount_after_tax": 577.5,
+            "number_of_guests": 8,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 564.29,
+            "amount_after_tax": 637.5,
+            "number_of_guests": 9,
+            "age_qualifying_code": "10"
+          },
+          {
+            "amount_before_tax": 0,
+            "amount_after_tax": 0,
+            "number_of_guests": 1,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 9.82,
+            "amount_after_tax": 11,
+            "number_of_guests": 2,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 10.71,
+            "amount_after_tax": 12,
+            "number_of_guests": 3,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 13.39,
+            "amount_after_tax": 15,
+            "number_of_guests": 4,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 35.71,
+            "amount_after_tax": 40,
+            "number_of_guests": 5,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 58.03,
+            "amount_after_tax": 65,
+            "number_of_guests": 6,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 80.35,
+            "amount_after_tax": 90,
+            "number_of_guests": 7,
+            "age_qualifying_code": "8"
+          },
+          {
+            "amount_before_tax": 102.68,
+            "amount_after_tax": 115,
+            "number_of_guests": 8,
+            "age_qualifying_code": "8"
+          }
+        ]
+      }
+    }
+  ]
+}

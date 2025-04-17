@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:ota="http://www.opentravel.org/OTA/2003/05" xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://www.w3.org/2005/08/addressing">
+  <soap:Header>
+    <wsa:MessageID>cb7ef25e-8812-4dac-b5d3-13ded22d31c7</wsa:MessageID>
+    <wsa:RelatesTo>38addccd-2a5f-4512-8158-858b9f2a96c7</wsa:RelatesTo>
+    <wsa:To>https://aripush.xres.de/?ari=public</wsa:To>
+    <wsa:Action>OTA_HotelRatePlanNotifRQ</wsa:Action>
+    <wsa:ReplyTo>
+      <wsa:Address>http://www.w3.org/2005/08/addressing/role/anonymous</wsa:Address>
+    </wsa:ReplyTo>
+  </soap:Header>
+  <soap:Body>
+    <ota:OTA_HotelAvailNotifRS TimeStamp="2025-03-04T12:36:53.412176Z">
+      <ota:Success/>
+    </ota:OTA_HotelAvailNotifRS>
+  </soap:Body>
+</soap:Envelope>
