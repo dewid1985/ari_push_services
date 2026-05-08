@@ -1,0 +1,671 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Character encoding set to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Viewport configuration for responsive design -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to Bootstrap CSS stylesheet -->
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+    <!-- Link to Font Awesome CSS stylesheet for icons -->
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <!-- Link to Font Awesome Brands CSS stylesheet -->
+    <link href="fontawesome/css/solid.css" rel="stylesheet">
+    <!-- Link to Font Awesome Solid CSS stylesheet -->
+    <link href="DataTables/datatables.min.css" rel="stylesheet"/>
+    <!-- Link to DataTables CSS stylesheet -->
+    <link rel="apple-touch-icon" sizes="180x180" href="http://aripush04.app.xres.rz1.xtrav.de:85/viewer/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <title>Request/Response Viewer</title>
+    <!-- Title of the web page -->
+<style>
+        table.dataTable td {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .card-body-ari {
+            border-radius: 0;
+        }
+
+        table.dataTable thead th,
+        table.dataTable tfoot th {
+            font-size: 0.7rem;
+            text-align: center;
+        }
+
+        table.dataTable tr.dtrg-level-0 td {
+            font-size: 0.7rem;
+            text-align: center;
+        }
+
+        .table th:nth-child(2),
+        .table td:nth-child(2) {
+        }
+
+        body {
+            margin-top: 20px;
+            background: #eee;
+        }
+
+        .filter-header {
+            font-size: 0.8rem;
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .search table tr:hover {
+            cursor: pointer;
+        }
+
+        .search table tr td.image {
+            width: 50px;
+        }
+
+        .dataTables_wrapper .dataTables_length select {
+            min-height: calc(1.5em + (0.5rem + 2px));
+            padding: 0.25rem 0.5rem;
+            font-size: .875rem;
+            border-radius: 0.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .search table tr td img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .list {
+            padding: 0.3rem 0rem;
+        }
+
+        .form-label {
+            font-size: 0.7rem;
+            line-height: 1.2;
+            margin-bottom: 0.2rem;
+        }
+
+        .filter-label {
+            font-size: 0.8rem;
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+
+        .nav-tabs {
+            border-bottom: 0;
+        }
+
+        .form-check-label {
+            font-size: 0.7rem;
+        }
+
+        table.dataTable tbody td {
+            padding: 5px 5px;
+        }
+
+        .btn-table {
+            padding: 0.13rem 0.26rem;
+            font-size: .75rem;
+        }
+
+        .dataTables_wrapper .dataTables_length select {
+            min-height: calc(1.5em + (0.5rem + 2px));
+            padding: 0.4rem 0.2rem;
+            font-size: .8rem;
+            border-radius: 0rem;
+            margin-bottom: 0.1rem;
+        }
+
+        .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+            color: inherit;
+            font-size: 0.7rem;
+        }
+        .nav-link {
+            display: block;
+            padding: 0.3rem 0.6rem;
+        }
+        .nav-tabs .nav-link {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+
+        .bg-dark {
+            background-color: #212529!important;
+            padding-top: 0.1rem;
+            padding-bottom: 0.1rem;
+        }
+
+        .text-left {
+            text-align: left !important;
+        }
+
+        .text-center {
+            text-align: center !important;
+            vertical-align: middle !important;
+        }
+
+        .value {
+            font-weight: bold;
+        }
+        .value.badge {
+            font-size: 1em;
+            margin-top: 2px;
+            background-color: #d9d9d996!important;
+        }
+
+        .hr-filter {
+            margin-top: 0.8em;
+        }
+
+        .session-overlay {
+            position: fixed;
+            inset: 0;
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(238, 238, 238, 0.96);
+            transition: opacity 0.25s ease;
+        }
+
+        .session-overlay.is-hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .session-overlay__card {
+            width: min(420px, calc(100vw - 2rem));
+            padding: 1.5rem;
+            background: #fff;
+            border: 1px solid #d7d7d7;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
+            text-align: center;
+        }
+
+        .session-overlay__title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .session-overlay__text {
+            color: #5f6368;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="session-overlay" class="session-overlay">
+    <div class="session-overlay__card">
+        <div class="spinner-border text-dark mb-3" role="status" aria-hidden="true"></div>
+        <div id="session-overlay-title" class="session-overlay__title">Checking session</div>
+        <p id="session-overlay-text" class="session-overlay__text">Preparing the Viewer interface.</p>
+    </div>
+</div>
+<nav class="navbar navbar-dark bg-dark fixed-top">
+    <!-- Navbar with a dark background at the top of the page -->
+    <div class="container-fluid">
+        <!-- Container for navbar content -->
+        <a class="navbar-brand" href="index.html?draw=1&amp;length=10&amp;active=true&amp;start=40#">
+            <!-- Navbar brand (left-aligned) with the text "Push ARI Service" -->
+            Push ARI Service
+        </a>
+        <div class="d-flex justify-content-end">
+            <!-- Right-aligned content with flex layout -->
+            <a href="index.html" class="btn btn-dark me-2 active">
+                <!-- Button linking to "index.html" with an active state -->
+                <i class="fas fa-envelope me-2"></i>
+                <!-- Envelope icon -->
+                OTA Messages
+                <!-- Text: OTA Messages -->
+            </a>
+            <a href="reports.html" class="btn btn-dark me-2">
+                <!-- Button linking to "reports.html" -->
+                <i class="fas fa-chart-bar me-2"></i>
+                <!-- Bar chart icon -->
+                Reports
+                <!-- Text: Reports -->
+            </a>
+            <a href="/logout" class="btn btn-outline-light">
+                <i class="fas fa-right-from-bracket me-2"></i>
+                Logout
+            </a>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid" style="margin-top: 3rem">
+    <main>
+        <ul class="nav nav-tabs" id="myTabs" role="tablist">
+            <!-- Unordered list with navigation tabs -->
+            <li class="nav-item">
+                <!-- List item for the first tab -->
+                <a href="index.html?draw=1&amp;length=10&amp;active=true&amp;start=40#tab1" class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1"
+                   type="button" role="tab" aria-controls="tab1" aria-selected="true">
+                    <!-- Link for the first tab -->
+                    <i class="fas fa-comments"></i> Messages
+                    <!-- Icon and text for the first tab (Messages) -->
+                </a>
+            </li>
+            <li class="nav-item">
+                <!-- List item for the second tab -->
+                <a href="index.html?draw=1&amp;length=10&amp;active=true&amp;start=40#user" class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button"
+                   role="tab" aria-controls="user" aria-selected="false">
+                    <!-- Link for the second tab -->
+                    <i class="fas fa-users"></i> Users
+                    <!-- Icon and text for the second tab (Users) -->
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                <!-- Tab content for the first tab -->
+                <div class="col-md-12">
+                    <!-- Container for the tab content -->
+                    <div class="card card-body-ari">
+                        <!-- Card element for styling -->
+                        <div class="card-body">
+                            <!-- Card body -->
+                            <div class="row">
+                                <!-- Row for organizing content -->
+                                <div class="col-md-2" id="filter-container">
+                                    <!-- Filter container on the left side -->
+                                    <h6 class="grid-title"><i class="fa fa-search"></i> Filters</h6>
+                                    <!-- Title for filters section -->
+                                    <form id="filter" >
+                                        <!-- Form for filtering data -->
+                                        <div class="row">
+                                            <!-- Row within the form -->
+                                            <div class="col">
+                                                <!-- Column for filter inputs -->
+                                                <label for="hotelCode" class="form-label filter-label">Hotel
+                                                    Code:</label>
+                                                <!-- Label for the Hotel Code input -->
+                                                <input type="text" class="form-control form-control-sm" id="hotelCode"
+                                                       name="provider"/>
+                                                <!-- Text input for Hotel Code filter -->
+                                                <label for="type" class="form-label filter-label">Request Type:</label>
+                                                <!-- Label for the Request Type dropdown -->
+                                                <select class="form-control form-control-sm" id="type"
+                                                        name="request-type">
+                                                    <!-- Dropdown for selecting Request Type -->
+                                                    <option value="">Choose...</option>
+                                                    <!-- Default option -->
+                                                    <option value="rate">OTA_HotelRatePlanNotifRQ</option>
+                                                    <!-- Options for different request types -->
+                                                    <option value="availability">OTA_HotelAvailNotifRQ</option>
+                                                    <option value="inventory">OTA_HotelInvCountNotifRQ</option>
+                                                </select>
+                                                <label for="user" class="form-label filter-label ">Checksum:</label>
+                                                <!-- Label for the Username input -->
+                                                <input type="text" class="form-control form-control-sm" id="checksum"
+                                                       name="checksum"/>
+                                                <!-- Text input for Username filter -->
+                                                <label for="user" class="form-label filter-label ">Username:</label>
+                                                <!-- Label for the Username input -->
+                                                <input type="text" class="form-control form-control-sm" id="user"
+                                                       name="user"/>
+                                                <!-- Text input for Username filter -->
+                                                <label for="outsideId" class="form-label filter-label">SynXis Request
+                                                    Message ID:</label>
+                                                <!-- Label for the Synxis Request Message ID input -->
+                                                <input type="text" class="form-control form-control-sm" id="outsideId"
+                                                       name="outside-id"/>
+                                                <!-- Text input for Synxis Request Message ID filter -->
+                                                <h6 class="filter-header">SynXis Message Time (GMT)</h6>
+                                                <!-- Subsection header for SynXis Message time -->
+                                                <label for="startDate" class="form-label">From:</label>
+                                                <!-- Label for the start date input -->
+                                                <input type="datetime-local" class="form-control form-control-sm"
+                                                       id="startDate" name="start-date-time" step="1"/>
+                                                <!-- Date and time input for the start date -->
+                                                <label for="endDate" class="form-label">To:</label>
+                                                <!-- Label for the end date input -->
+                                                <input type="datetime-local" class="form-control form-control-sm"
+                                                       id="endDate" name="end-date-time" step="1"/>
+                                                <!-- Date and time input for the end date -->
+                                                <label for="internalId" class="form-label filter-label">TraSo Response
+                                                    Message ID:</label>
+                                                <!-- Label for the TraSo Response Message ID input -->
+                                                <input type="text" class="form-control form-control-sm" id="internalId"
+                                                       name="internal-id"/>
+                                                <!-- Text input for TraSo Response Message ID filter -->
+                                                <h6 class="filter-header">TraSo Received Time (Europe/Berlin)</h6>
+                                                <!-- Subsection header for TraSo received time -->
+                                                <label for="startCreatedAt" class="form-label">From:</label>
+                                                <!-- Label for the received start date input -->
+                                                <input type="datetime-local" class="form-control form-control-sm"
+                                                       id="startCreatedAt" name="start-date-time" step="1"/>
+                                                <!-- Date and time input for the received start date -->
+                                                <label for="endCreatedAt" class="form-label">To:</label>
+                                                <!-- Label for the received end date input -->
+                                                <input type="datetime-local" class="form-control form-control-sm"
+                                                       id="endCreatedAt" name="end-date-time" step="1"/>
+                                                <!-- Date and time input for the received end date -->
+                                                <h6 class="filter-header">TraSo Response Time (Europe/Berlin)</h6>
+                                                <!-- Subsection header for TraSo Response time -->
+                                                <label for="startUpdatedAt" class="form-label">From:</label>
+                                                <!-- Label for the updated start date input -->
+                                                <input type="datetime-local" class="form-control form-control-sm"
+                                                       id="startUpdatedAt" name="start-date-time" step="1"/>
+                                                <!-- Date and time input for the updated start date -->
+                                                <label for="endUpdatedAt" class="form-label">To:</label>
+                                                <!-- Label for the updated end date input -->
+                                                <input type="datetime-local" class="form-control form-control-sm"
+                                                       id="endUpdatedAt" name="end-date-time" step="1"/>
+                                                <!-- Date and time input for the updated end date -->
+                                                <div class="row mt-2">
+                                                    <div class="col-md-4">
+                                                        <div class="form-check form-switch">
+                                                            <!-- Toggle switch for "Show Duplicates" -->
+                                                            <input class="form-check-input" type="checkbox" id="double"/>
+                                                            <label class="form-check-label" for="double">Duplicates</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="form-check form-switch">
+                                                            <!-- Toggle switch for "Show Errors" -->
+                                                            <input class="form-check-input" type="checkbox" id="error"/>
+                                                            <label class="form-check-label" for="error">Errors</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-4">
+                                                        <div class="form-check form-switch">
+                                                            <!-- Toggle switch for "Show Errors" -->
+                                                            <input class="form-check-input" type="checkbox" id="active" checked/>
+                                                            <label class="form-check-label" for="error">Active</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="text-end mt-2">
+                                                    <button type="button" class="btn btn-sm btn-danger" id="deactivateMessage" disabled>
+                                                        <i class="fas fa-ban"></i> Deactivate
+                                                    </button>
+                                                    <button type="button" class="btn btn-success btn-sm" id="activateMessage" disabled style="display: none;">
+                                                        <i class="fas fa-check"></i> Activate
+                                                    </button>
+                                                    <!-- Buttons for clearing and searching -->
+                                                    <button type="button" class="btn btn-secondary btn-sm" id="clear">
+                                                        <i class="fas fa-broom"></i> Clear
+                                                    </button>
+                                                    <button type="button" class="btn btn-dark btn-sm" id="search">
+                                                        <i class="fas fa-search"></i> Search
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-md-10">
+                                    <!-- Column for displaying the list -->
+                                    <h6 class="grid-title"><i class="fa fa-list"></i> List</h6>
+                                    <!-- Title for the list -->
+                                    <div class="card-body list">
+                                        <!-- Card body for the list content -->
+                                        <table id="list" class="table table-hover table-light table-sm" style="width:100%">
+                                            <!-- Table for displaying the data list -->
+                                            <thead>
+                                            <!-- Table headers -->
+                                            <tr>
+                                                <th class="text-left">Message Content</th>
+                                                <th class="text-left">SynXis Request Message Details</th>
+                                                <th class="text-left">TraSo Message Processing Details</th>
+                                                <th class="text-center"></th>
+                                            </tr>
+                                            </thead>
+                                            <tfoot>
+                                            <!-- Table footers -->
+                                            <tr>
+                                                <th class="text-left">Message Content</th>
+                                                <th class="text-left">SynXis Request Message Details</th>
+                                                <th class="text-left">TraSo Message Processing Details</th>
+                                                <th class="text-center"></th>
+                                            </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                <!-- Tab content for the second tab -->
+                <div class="col-md-12">
+                    <!-- Container for the tab content -->
+                    <div class="card card-body-ari">
+                        <!-- Card element for styling -->
+                        <div class="card-body">
+                            <!-- Card body -->
+                            <div class="row">
+                                <!-- Row for organizing content -->
+                                <div class="col-md-2">
+                                    <!-- Column for filter inputs -->
+                                    <h6 class="grid-title"><i class="fa fa-search"></i> Filters</h6>
+                                    <!-- Title for filters section -->
+                                    <form id="user-filter">
+                                        <!-- Form for filtering user data -->
+                                        <div class="row">
+                                            <!-- Row within the form -->
+                                            <div class="col">
+                                                <!-- Column for filter inputs -->
+                                                <label for="filter-name"
+                                                       class="form-label filter-label">Username</label>
+                                                <!-- Label for the Username input -->
+                                                <input type="text" class="form-control form-control-sm" id="filter-name"
+                                                       name="name"/>
+                                                <!-- Text input for filtering by Username -->
+                                                <label for="filter-customerCode" class="form-label filter-label">Customer
+                                                    Code</label>
+                                                <!-- Label for the Customer Code input -->
+                                                <input type="text" class="form-control form-control-sm"
+                                                       id="filter-customerCode" name="customerCode"/>
+                                                <!-- Text input for filtering by Customer Code -->
+                                                <hr>
+                                                <div class="text-end">
+                                                    <!-- Buttons for user search and clearing filters -->
+                                                    <button class="btn btn-dark float-end btn-sm" id="user-search"><i
+                                                            class="fa fa-search"></i> Search
+                                                    </button>
+                                                    <button class="btn btn-secondary float-end btn-sm" id="user-clear"
+                                                            style="margin-right: 5px">
+                                                        <i class="fa fa-broom"></i> Clear
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-md-10">
+                                    <!-- Column for displaying the user list -->
+                                    <div class="row">
+                                        <div class="col">
+                                            <h6 class="grid-title"><i class="fa fa-list"></i> List</h6>
+                                        </div>
+                                        <div class="col float-end text-end">
+                                            <button class="btn btn-link btn-sm ms-auto alert-link" id="createUser"
+                                                    data-bs-toggle="modal"
+                                                    data-bs-target="#createUserModal">
+                                                <!-- Button for creating a user -->
+                                                <i class="fas fa-user-plus me-2"></i> Create User
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <!-- Title for the user list -->
+                                        <div class="card-body list">
+                                            <!-- Card body for the user list content -->
+                                            <table id="users-list" class="table table-sm" style="width:100%">
+                                                <!-- Table for displaying the user list -->
+                                                <thead>
+                                                <!-- Table headers -->
+                                                <tr>
+                                                    <th>id</th>
+                                                    <th>Username</th>
+                                                    <th>Customer code</th>
+                                                    <th>Created at</th>
+                                                    <th></th>
+                                                </tr>
+                                                </thead>
+                                                <tfoot>
+                                                <!-- Table footers -->
+                                                <tr>
+                                                    <th>id</th>
+                                                    <th>Username</th>
+                                                    <th>Customer code</th>
+                                                    <th>Created at</th>
+                                                    <th></th>
+                                                </tr>
+                                                </tfoot>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+<div class="modal fade" id="createUserModal" data-bs-backdrop="static" tabindex="-1"
+     aria-labelledby="createUserModalLabel" aria-hidden="true">
+    <!-- Modal for creating a new user -->
+    <div class="modal-dialog">
+        <!-- Modal dialog container -->
+        <div class="modal-content">
+            <!-- Modal content -->
+            <div class="modal-header">
+                <!-- Modal header with close button and title -->
+                <h5 class="modal-title" id="createUserModalLabel">
+                    <i class="fas fa-user-plus"></i> Create User
+                    <!-- Modal title with icon (Create User) -->
+                </h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <!-- Close button for the modal -->
+            </div>
+            <div class="modal-body">
+                <!-- Modal body containing the user creation form -->
+                <form id="create-user-form">
+                    <!-- User creation form -->
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <!-- Label for the username input field -->
+                        <input type="text" class="form-control form-control-sm" id="username" name="username" required>
+                        <!-- Input field for entering the username -->
+                        <div id="feedback_username" class="invalid-feedback"></div>
+                        <!-- Feedback section for username validation -->
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <!-- Label for the password input field -->
+                        <div class="input-group input-group-sm">
+                            <!-- Input group for password input -->
+                            <input type="text" class="form-control form-control-sm" id="password" name="password"
+                                   required>
+                            <!-- Input field for entering the password -->
+                            <button class="btn btn-secondary" id="generatePassword"><i class="fas fa-magic"></i>
+                            </button>
+                            <!-- Button for generating a password -->
+                            <button class="btn btn-primary" id="copyPassword"><i class="fas fa-clone"></i></button>
+                            <!-- Button for copying the generated password -->
+                        </div>
+                        <div id="feedback_password" class="invalid-feedback"></div>
+                        <!-- Feedback section for password validation -->
+                    </div>
+                    <div class="mb-3">
+                        <label for="customerCode" class="form-label">Customer Code</label>
+                        <!-- Label for the customer code input field -->
+                        <input type="text" class="form-control form-control-sm" id="customerCode" name="customerCode"
+                               required>
+                        <!-- Input field for entering the customer code -->
+                        <div id="feedback_customerCode" class="invalid-feedback"></div>
+                        <!-- Feedback section for customer code validation -->
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-sm" id="create-users">
+                        <i class="fas fa-save"></i> Save
+                        <!-- Button for saving the user -->
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="confirmationModal" data-bs-backdrop="static" tabindex="-1"
+     aria-labelledby="confirmationModalLabel" aria-hidden="true">
+    <!-- Modal for user deletion confirmation -->
+    <div class="modal-dialog">
+        <!-- Modal dialog container -->
+        <div class="modal-content">
+            <!-- Modal content -->
+            <div class="modal-header">
+                <!-- Modal header with close button and title -->
+                <h5 class="modal-title" id="confirmationModalLabel">Confirm User Deletion</h5>
+                <!-- Title of the confirmation modal -->
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <!-- Close button for the modal -->
+            </div>
+            <div class="modal-body">
+                <!-- Modal body with the confirmation message -->
+                <p>Are you sure you want to delete this user?</p>
+                <!-- Confirmation message asking for user deletion confirmation -->
+            </div>
+            <div class="modal-footer">
+                <!-- Modal footer containing action buttons -->
+                <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">
+                    <i class="fas fa-times"></i> Cancel
+                    <!-- Button to cancel the deletion operation -->
+                </button>
+                <button type="button" class="btn btn-danger btn-sm" id="deleteUser">
+                    <i class="fas fa-trash-alt"></i> Delete
+                    <!-- Button to confirm and proceed with user deletion -->
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="deactivateMessagesModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="deactivateMessagesModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deactivateMessagesModalLabel"><i class="fas fa-exclamation-circle"></i> Deactivate Messages</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to deactivate messages based on the filter conditions?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fas fa-times"></i> Cancel</button>
+                <button type="button" class="btn btn-primary" id="confirmDeactivation"><i class="fas fa-save"></i> Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="activateMessagesModal" data-bs-backdrop="static" tabindex="-1" aria-labelledby="activateMessagesModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="activateMessagesModalLabel"><i class="fas fa-exclamation-circle"></i> Activate Messages</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to activate messages based on the filter conditions?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"><i class="fas fa-times"></i> Cancel</button>
+                <button type="button" class="btn btn-primary" id="confirmActivation"><i class="fas fa-save"></i> Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script src="DataTables/datatables.min.js"></script>
+<script src="js/aripush.js"></script>
+</body>
+</html>
