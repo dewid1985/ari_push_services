@@ -1,0 +1,29 @@
+<section class="container py-5">
+  <div class="row align-items-center g-4">
+    <div class="col-lg-8">
+      <h1 class="display-5 fw-semibold mb-3">ARI Service</h1>
+      <p class="lead text-secondary mb-4">
+        Control panel for the SOAP and API service used to manage rates, availability, and inventory.
+      </p>
+
+      <div class="d-flex flex-wrap gap-2">
+        <a class="btn btn-primary" href={~p"/dashboard"}>System Dashboard</a>
+        <a class="btn btn-outline-primary" href={~p"/dev/dashboard"}>Phoenix Dashboard</a>
+        <a class="btn btn-outline-secondary" href={~p"/soap/public.wsdl"}>Public WSDL</a>
+        <a class="btn btn-outline-secondary" href={~p"/soap/private.wsdl"}>Private WSDL</a>
+      </div>
+    </div>
+
+    <div class="col-lg-4">
+      <div class="border rounded-3 p-4 bg-light">
+        <h2 class="h5 mb-3">Endpoints</h2>
+        <ul class="list-unstyled mb-0 text-secondary">
+          <li><code>POST /soap/rate</code></li>
+          <li><code>POST /soap/availability</code></li>
+          <li><code>POST /soap/inventory</code></li>
+          <li><code>POST /api/login</code></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

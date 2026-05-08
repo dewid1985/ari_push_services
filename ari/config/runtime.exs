@@ -20,6 +20,38 @@ if System.get_env("PHX_SERVER") do
   config :ari, AriWeb.Endpoint, server: true
 end
 
+jwt_secret_key =
+  System.get_env("JWT_SECRET_KEY") ||
+    if config_env() == :prod do
+      raise """
+      environment variable JWT_SECRET_KEY is missing.
+      """
+    else
+      "dev-jwt-secret-change-me"
+    end
+
+auth_cookie_max_age =
+  System.get_env("AUTH_COOKIE_MAX_AGE")
+  |> case do
+    nil -> 24 * 60 * 60
+    value -> String.to_integer(value)
+  end
+
+jwt_ttl_seconds =
+  System.get_env("JWT_TTL_SECONDS")
+  |> case do
+    nil -> 24 * 60 * 60
+    value -> String.to_integer(value)
+  end
+
+config :ari, Ari.Auth,
+  jwt_secret_key: jwt_secret_key,
+  jwt_ttl_seconds: jwt_ttl_seconds,
+  cookie_name: System.get_env("AUTH_COOKIE_NAME") || "auth_token",
+  cookie_max_age: auth_cookie_max_age,
+  cookie_same_site: System.get_env("AUTH_COOKIE_SAME_SITE") || "Lax",
+  cookie_secure: System.get_env("AUTH_COOKIE_SECURE") in ~w(true 1)
+
 if config_env() == :prod do
   database_url =
     System.get_env("DATABASE_URL") ||

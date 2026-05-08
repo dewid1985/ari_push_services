@@ -1,0 +1,45 @@
+<section class="min-vh-100 d-flex align-items-center bg-body-tertiary">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-sm border-0">
+          <div class="card-body p-4 p-lg-5">
+            <div class="text-center mb-4">
+              <h1 class="h3 mb-2">Viewer Sign In</h1>
+              <p class="text-secondary mb-0">Authentication is required to access messages and user management.</p>
+            </div>
+
+            <%= if @error do %>
+              <div class="alert alert-danger" role="alert"><%= @error %></div>
+            <% end %>
+
+            <%= if @info do %>
+              <div class="alert alert-warning" role="alert"><%= @info %></div>
+            <% end %>
+
+            <form action={~p"/login"} method="post" class="d-grid gap-3">
+              <input type="hidden" name="_csrf_token" value={get_csrf_token()} />
+              <input type="hidden" name="next" value={@next} />
+
+              <div>
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="email" class="form-control" autocomplete="username" required />
+              </div>
+
+              <div>
+                <label for="password" class="form-label">Password</label>
+                <input id="password" name="password" type="password" class="form-control" autocomplete="current-password" required />
+              </div>
+
+              <button type="submit" class="btn btn-primary w-100">Sign In</button>
+            </form>
+
+            <p class="small text-secondary mt-4 mb-0 text-center">
+              After signing in, you will be redirected back to the Viewer interface.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

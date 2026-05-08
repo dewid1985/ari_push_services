@@ -1,12 +1,40 @@
 #!/bin/bash
 
+RATE_URL="${RATE_URL:-http://localhost:4000/soap/rate}"
+HOTEL_CODE_BASE="${HOTEL_CODE_BASE:-36574}"
+HOTEL_CODE_INTERVAL="${HOTEL_CODE_INTERVAL:-100}"
+PARALLEL_JOBS="${PARALLEL_JOBS:-60}"
+REQUEST_COUNT="${REQUEST_COUNT:-2000}"
+
+if ! [[ "$HOTEL_CODE_BASE" =~ ^[0-9]+$ ]]; then
+  echo "HOTEL_CODE_BASE must be a non-negative integer, got: $HOTEL_CODE_BASE" >&2
+  exit 1
+fi
+
+if ! [[ "$HOTEL_CODE_INTERVAL" =~ ^[1-9][0-9]*$ ]]; then
+  echo "HOTEL_CODE_INTERVAL must be a positive integer, got: $HOTEL_CODE_INTERVAL" >&2
+  exit 1
+fi
+
+if ! [[ "$PARALLEL_JOBS" =~ ^[1-9][0-9]*$ ]]; then
+  echo "PARALLEL_JOBS must be a positive integer, got: $PARALLEL_JOBS" >&2
+  exit 1
+fi
+
+if ! [[ "$REQUEST_COUNT" =~ ^[1-9][0-9]*$ ]]; then
+  echo "REQUEST_COUNT must be a positive integer, got: $REQUEST_COUNT" >&2
+  exit 1
+fi
+
 run_myscript() {
   local index=$1
+  local hotel_code_offset=$(( (index - 1) / HOTEL_CODE_INTERVAL ))
+  local hotel_code=$(( HOTEL_CODE_BASE + hotel_code_offset ))
 
   # shellcheck disable=SC2155
   local timestamp=$(date -u +"%Y-%m-%dT%H:%M:%S.%NZ")
 
-  curl --location --request POST 'http://localhost:4000/soap/rate' \
+  curl --location --request POST "$RATE_URL" \
     --header 'Content-Type: text/xml; charset=utf-8' \
     --header 'SOAPAction: Recipient' \
     --data-raw "<Envelope xmlns=\"http://www.w3.org/2003/05/soap-envelope\">
@@ -26,8 +54,8 @@ run_myscript() {
                     </soap2:Header>
                     <Body>
                         <OTA_HotelRatePlanNotifRQ xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns=\"http://www.opentravel.org/OTA/2003/05\" TimeStamp=\"$timestamp\" Version=\"$index\" MessageContentCode=\"8\">
-                            <RatePlans HotelCode=\"36572\" ID=\"$index\" >
-                                <RatePlan Start=\"2025-08-22\" End=\"2025-08-27\" RatePlanCode=\"IA_EXP1_PEX\" RatePlanNotifType=\"Delta\">
+                            <RatePlans HotelCode=\"$hotel_code\" ID=\"$index\" >
+                                <RatePlan Start=\"2026-08-22\" End=\"2026-08-27\" RatePlanCode=\"IA_EXP1_PEX\" RatePlanNotifType=\"Delta\">
                                     <DestinationSystemsCode>
                                         <DestinationSystemCode>6105</DestinationSystemCode>
                                     </DestinationSystemsCode>
@@ -45,7 +73,7 @@ run_myscript() {
                                     </Rates>
                                     <UniqueID Type=\"16\" ID=\"1\"/>
                                 </RatePlan>
-                                <RatePlan Start=\"2025-08-25\" End=\"2025-08-25\" RatePlanCode=\"IA_EXP1_PEX\" RatePlanNotifType=\"Delta\">
+                                <RatePlan Start=\"2026-08-25\" End=\"2026-08-25\" RatePlanCode=\"IA_EXP1_PEX\" RatePlanNotifType=\"Delta\">
                                     <DestinationSystemsCode>
                                         <DestinationSystemCode>6105</DestinationSystemCode>
                                     </DestinationSystemsCode>
@@ -63,7 +91,7 @@ run_myscript() {
                                     </Rates>
                                     <UniqueID Type=\"16\" ID=\"7\"/>
                                 </RatePlan>
-                                <RatePlan Start=\"2025-08-30\" End=\"2025-08-30\" RatePlanCode=\"IA_EXP1_PEX\" RatePlanNotifType=\"Delta\">
+                                <RatePlan Start=\"2026-08-30\" End=\"2026-08-30\" RatePlanCode=\"IA_EXP1_PEX\" RatePlanNotifType=\"Delta\">
                                     <DestinationSystemsCode>
                                         <DestinationSystemCode>6105</DestinationSystemCode>
                                     </DestinationSystemsCode>
@@ -81,7 +109,7 @@ run_myscript() {
                                     </Rates>
                                     <UniqueID Type=\"16\" ID=\"8\"/>
                                 </RatePlan>
-                                <RatePlan Start=\"2025-09-06\" End=\"2025-09-13\" RatePlanCode=\"IA_EXP1_PEX\" RatePlanNotifType=\"Delta\">
+                                <RatePlan Start=\"2026-09-06\" End=\"2026-09-13\" RatePlanCode=\"IA_EXP1_PEX\" RatePlanNotifType=\"Delta\">
                                     <DestinationSystemsCode>
                                         <DestinationSystemCode>6105</DestinationSystemCode>
                                     </DestinationSystemsCode>
@@ -99,7 +127,7 @@ run_myscript() {
                                     </Rates>
                                     <UniqueID Type=\"16\" ID=\"9\"/>
                                 </RatePlan>
-                                <RatePlan Start=\"2025-09-28\" End=\"2025-09-30\" RatePlanCode=\"IA_EXP1_PEX\" RatePlanNotifType=\"Delta\">
+                                <RatePlan Start=\"2026-09-28\" End=\"2026-09-30\" RatePlanCode=\"IA_EXP1_PEX\" RatePlanNotifType=\"Delta\">
                                     <DestinationSystemsCode>
                                         <DestinationSystemCode>6105</DestinationSystemCode>
                                     </DestinationSystemsCode>
@@ -124,5 +152,6 @@ run_myscript() {
 }
 
 export -f run_myscript
+export RATE_URL HOTEL_CODE_BASE HOTEL_CODE_INTERVAL PARALLEL_JOBS REQUEST_COUNT
 
-time parallel -j 60 run_myscript ::: {1..2000}
+time parallel -j "$PARALLEL_JOBS" run_myscript ::: $(seq 1 "$REQUEST_COUNT")

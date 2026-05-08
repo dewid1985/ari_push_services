@@ -25,7 +25,7 @@ config :ari, Ari.Repo,
 config :ari, AriWeb.Endpoint,
   # Binding to loopback ipv4 address prevents access from other machines.
   # Change to `ip: {0, 0, 0, 0}` to allow access from other machines.
-  http: [ip: {0, 0, 0, 0}, port: 4000],
+  http: [ip: {0, 0, 0, 0}, port: 8000],
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
@@ -89,5 +89,3 @@ config :phoenix_live_view,
 
 # Disable swoosh api client as it is only required for production adapters.
 config :swoosh, :api_client, false
-
-config :joken, default_signer: System.get_env("JWT_SECRET_KEY")

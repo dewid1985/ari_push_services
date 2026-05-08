@@ -19,7 +19,7 @@ defmodule Ari.MixProject do
   def application do
     [
       mod: {Ari.Application, []},
-      extra_applications: [:logger, :runtime_tools]
+      extra_applications: [:logger, :runtime_tools, :os_mon]
     ]
   end
 
@@ -55,6 +55,7 @@ defmodule Ari.MixProject do
       {:finch, "~> 0.19"},
       {:telemetry_metrics, "~> 1.0"},
       {:telemetry_poller, "~> 1.1"},
+      {:ecto_psql_extras, "~> 0.7"},
       {:gettext, "~> 0.26"},
       {:jason, "~> 1.4.4"},
       {:dns_cluster, "~> 0.1.3"},

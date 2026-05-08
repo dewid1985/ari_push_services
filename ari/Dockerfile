@@ -20,6 +20,8 @@ RUN mix do local.hex --force, local.rebar --force, deps.get, deps.compile
 # Копирование оставшихся файлов
 COPY . .
 
+RUN mix deps.get
+
 # Опционально: очистка кэша npm
 RUN npm cache clean --force || true
 RUN rm -rf ./assets/node_modules || true

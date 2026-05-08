@@ -14,11 +14,37 @@ defmodule AriWeb.Router do
     plug :accepts, ["json"]
   end
 
+  pipeline :authenticated_api do
+    plug :accepts, ["json"]
+    plug AriWeb.Plugs.RequireAuth
+  end
+
+  pipeline :authenticated_browser do
+    plug AriWeb.Plugs.RequireAuth, mode: :redirect
+  end
+
   pipeline :soap do
     plug :accepts, ["xml"]
     plug :fetch_session
     #plug AriWeb.Plugs.SOAPParser
     # CSRF protection is not included here
+  end
+
+  scope "/", AriWeb do
+    pipe_through :browser
+
+    get "/", IndexController, :index
+    get "/login", SessionController, :new
+    post "/login", SessionController, :create
+    get "/logout", SessionController, :delete
+  end
+
+  scope "/", AriWeb do
+    pipe_through [:browser, :authenticated_browser]
+
+    get "/dashboard", DashboardController, :index
+    get "/viewer", DashboardController, :viewer_index
+    get "/viewer/payload/:action/:id", DashboardController, :viewer_payload
   end
 
   scope "/soap", AriWeb do
@@ -36,11 +62,36 @@ defmodule AriWeb.Router do
   scope "/api", AriWeb do
     pipe_through :api
 
-    post "/create", UserController, :create
     post "/login", UserController, :login
+  end
+
+  scope "/api", AriWeb do
+    pipe_through :authenticated_api
+
+    get "/session", SessionController, :show
+    post "/create", UserController, :create
     post "/roles", UserController, :create_role
     post "/permissions", UserController, :create_permission
     post "/resources", UserController, :create_resource
+  end
+
+  scope "/dashboard/api", AriWeb do
+    pipe_through :authenticated_api
+
+    get "/messages", DashboardController, :messages
+    post "/messages/active", DashboardController, :update_messages
+    get "/users", DashboardController, :users
+    post "/users", DashboardController, :create_user
+  end
+
+  scope "/viewer", AriWeb do
+    pipe_through :authenticated_api
+
+    get "/messages", DashboardController, :viewer_messages
+    post "/messages/active", DashboardController, :viewer_update_messages
+    get "/users", DashboardController, :viewer_users
+    post "/users", DashboardController, :viewer_create_user
+    delete "/users/:id", DashboardController, :viewer_delete_user
   end
 
 
